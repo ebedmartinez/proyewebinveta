@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Producto</title>
+</head>
+<body>
+    <div class="ventana-mov">
+        <h3>Movimientos </h3>
+        <div class="ventana-mov-main"> 
+            <p><select name="tipo-mov" placeholder="Categoria" autofocus>
+                <option value="0">Seleccionar</option>
+                <option value="1">Entrada</option>
+                <option value="2">Salida</option>
+            </select></p>
+            <p><input type="date" name="fecha-mov" step="1"  value="2021-09-21"></p>
+            <p><input type="text" name="cedula-mov" placeholder="Cédula"></p>
+            <p><input type="text" name="nombre-mov" placeholder="Nombre / Razón Social"></p>
+            <p><select name="producto-mov" placeholder="Categoria">
+                <option value="0">Seleccionar</option>
+                <option value="1">Producto 1</option>
+                <option value="2">Producto 2</option>
+                <option value="3">Producto 3</option>
+            </select></p> 
+            <p><input type="text" name="descripcion-mov" placeholder="Descripción"> </p>
+            <p><input type="text" name="cantidad-mov" placeholder="Cantidad"></p>
+            <div class="botones">
+                <input type="submit" value="Guardar">
+                <input type="submit" value="Actualizar">
+                <input type="submit" value="Eliminar">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
